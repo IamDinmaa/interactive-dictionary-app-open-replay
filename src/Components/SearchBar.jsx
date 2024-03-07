@@ -31,7 +31,7 @@ function Search({ callback }) {
         onChange={handleChange}
         value={word}
         placeholder="Search a word"
-        className="border-solid focus:outline-none border-5 rounded-lg w-full bg-slate-100 px-2 p-2 placeholder-slate-950 font-bold"
+        className="border-solid focus:outline-none border-5 rounded-lg w-full bg-slate-100 text-slate-950 px-2 p-2 placeholder-slate-950 font-bold"
       />
       <button
         className="absolute top-2.5 right-3 translate-y-1 cursor-pointer text-violet-600"

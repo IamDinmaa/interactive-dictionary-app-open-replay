@@ -10,12 +10,10 @@ function Meaning({ data }) {
             <>
               <div key={index}>
                 <div className="flex items-center">
-                  <h2 className="mb-3 text-slate-950 font-bold">
-                    {meaning.partOfSpeech}{" "}
-                  </h2>
+                  <h2 className="mb-3 font-bold">{meaning.partOfSpeech} </h2>
                   <p className="border-b border-gray-400 grow ml-2"></p>
                 </div>
-                <p className=" mb-3 text-slate-400  ">Meaning</p>
+                <p className=" mb-3 text-slate-400">Meaning</p>
                 {meaning.definitions.map((definition) => (
                   <>
                     <h2 className=" mb-2 mx-4">{definition.definition} </h2>

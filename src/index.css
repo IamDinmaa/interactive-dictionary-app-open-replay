@@ -3,3 +3,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --background-color-dark: rgb(2 6 23);
+}
+body {
+  background-color: var(--background-color-dark);
+  color: white;
+  transition: background-color 0.5s, color 0.5s;
+  height: 100%;
+  width: 100%;
+}

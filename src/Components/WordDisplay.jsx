@@ -18,7 +18,7 @@ function Word({ data }) {
           <div>
             <div>
               <h2
-                className="font-bold text-3xl 
+                className="font-bold text-3xl text-slate-100
             ">
                 {" "}
                 {data.word}
